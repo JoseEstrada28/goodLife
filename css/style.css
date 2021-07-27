@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 * {
   padding: 0;
   margin: 0;
@@ -8,9 +11,17 @@
   width: 2rem;
   height: 2rem; }
 
+.image-logo {
+  width: 100%;
+  height: 730px;
+  border-bottom: 1px solid black;
+  background-image: url(../img/imgTwo.jpg);
+  background-position: center; }
+
 header {
   width: 100%;
   height: 80px;
+  position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -62,13 +73,156 @@ header .label__menu:hover {
   padding: 20px;
   color: white;
   text-decoration: none;
-  text-align: center; }
+  text-align: center;
+  font-size: 20px; }
 
-body {
-  background-color: yellow; }
+.slogan {
+  width: 30%;
+  height: 30%;
+  border: 1px solid white;
+  margin-top: 15%;
+  margin-left: 5%; }
+  .slogan__title {
+    color: orange;
+    text-align: center; }
+  .slogan .slogan-text {
+    color: white;
+    text-align: center;
+    margin-top: 5%; }
 
-.slide img {
-  height: 600px; }
+.more-information {
+  padding-top: 20px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .more-information__img {
+    width: 50%;
+    height: 420px;
+    margin-top: 5%; }
+    .more-information__img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 5px; }
+  .more-information__description {
+    width: 50%;
+    text-align: center; }
+    .more-information__description .description {
+      margin-top: 25%;
+      margin-bottom: 9%;
+      font-size: 40px; }
+  .more-information a {
+    text-decoration: none;
+    width: 100%;
+    background-color: gray;
+    padding: 20px;
+    color: white; }
+
+.information {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 8%; }
+  .information__title {
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 40px; }
+  .information__information {
+    line-height: 1.7rem;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto; }
+
+.section-blog {
+  width: 90%;
+  margin-top: 8%;
+  margin: 0 auto;
+  border: 1px solid black; }
+  .section-blog__bigTitle {
+    font-size: 18rem;
+    text-align: center;
+    margin-top: 3%; }
+    .section-blog__bigTitle a {
+      text-decoration: none;
+      color: black; }
+
+.section-blog__bigTitle:hover {
+  font-size: 19rem;
+  transition: 100ms; }
+  .section-blog__bigTitle:hover a {
+    color: gray; }
+
+.back {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  transition: 2s; }
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  background-color: black;
+  padding-top: 3rem; }
+  footer .colum {
+    width: 20%;
+    margin-bottom: 10%; }
+    footer .colum .pages {
+      font-size: 25px;
+      margin-bottom: 1rem;
+      color: white; }
+    footer .colum .page__lista--item {
+      list-style-type: none;
+      margin-bottom: 0.5rem; }
+      footer .colum .page__lista--item a {
+        text-decoration: none;
+        color: white; }
+    footer .colum__title {
+      font-size: 40px;
+      margin-bottom: 0.5rem;
+      color: white; }
+    footer .colum__slogan {
+      margin-bottom: 1rem;
+      color: white; }
+  footer .social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin-bottom: 1rem; }
+    footer .social__item a img {
+      width: 2rem;
+      height: 2rem; }
+  footer .copy {
+    margin-bottom: 1rem;
+    color: white; }
+  footer .rights {
+    color: white; }
+  footer .time__hours {
+    color: white;
+    margin-bottom: 0.5rem; }
+  footer .time__day {
+    color: white;
+    margin-bottom: 0.5rem; }
+  footer .time .phone {
+    color: white;
+    margin-bottom: 0.5rem; }
+  footer .time .number {
+    margin-bottom: 0.5rem; }
+    footer .time .number a {
+      color: white;
+      margin-bottom: 0.5rem; }
+  footer .time .email {
+    color: white;
+    margin-bottom: 0.5rem; }
+  footer .time .adress {
+    color: white; }
 
 .promo__title {
   text-align: center;
