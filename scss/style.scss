@@ -13,13 +13,15 @@
     
     
 }
+
 header{
     width: 100%;
     height: 80px;
+    // position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
-   background-color: black;
+  
     justify-content: space-around;
    //align-items: center;
   
