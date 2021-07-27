@@ -157,10 +157,10 @@ body{
        background-color: black;
         width: 100%;
         //add height
-        height: 100%;
+       
         //add more top
-        margin-top: 711px;
-        // margin-top: 370px;
+        
+         margin-top: 370px;
         margin-left: -200%;
         transition: all 0.5s;
     }
@@ -187,7 +187,7 @@ body{
     #btn-menu:checked ~ .header__menu {
         margin: 0;
         //add more top
-        margin-top: 711px;
+        margin-top: 370px;
         // margin-top: 370px;
         
 }
